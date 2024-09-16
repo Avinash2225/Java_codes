@@ -1,28 +1,23 @@
-package Day15;
-class Snapchat{
-	Snapchat(int a , int b){
-		System.out.println("snapchat");
+package inheritance;
+
+ class SingalLevel {
+
+	static void Add() {
+		System.out.println("this is single");
 	}
-}
-class Google extends Snapchat {
- Google (){
-	 super(12,3);      //should be present only in first line
-	 System.out.println("Google");
-	//  super(12,3); it can not be present here always gives error
+	
  }
-}
-
-public class Amazon extends Google {
-Amazon(){
-	//super(10);  //explicitely when parent class constructure is non parameterized
-	//super calling is present when constructures are non parameterized
-	System.out.println("Amazon");
-}
+		public class Amazon extends SingalLevel {
+		static void Add1() {
+			
+	System.out.println("this is second");		
+		}
+	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
-		
-		new Amazon();
+		Amazon d1 = new Amazon ();
+		d1.Add();
+		d1.Add1();
 	}
-
-}
+	
+	}
