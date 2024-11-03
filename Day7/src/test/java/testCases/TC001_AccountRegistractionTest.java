@@ -4,18 +4,30 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageObjects.AccountRegistrationPage;
 import pageObjects.HomePage;
+import testBase.BaseClass;
 
 public class TC001_AccountRegistractionTest extends BaseClass {
 
 	
 @Test public	void varify_account_registration() {
-	
+	try {
+	logger.info("****** Starting Test Case TC001_AccountRegistractionTest**********");
 	HomePage hp = new HomePage(driver);
 	
 	hp.clickMyaccount();
+	
+	logger.info("****** Clicked on my Account link**********");
+
+	
 	hp.clickRegistar();
 	
+	logger.info("****** Clicked on Registar link**********");
+
+	
 	AccountRegistrationPage ap = new AccountRegistrationPage(driver);
+	logger.info("****** Providing customer details**********");
+
+	
 	ap.setFirstName(randomeString().toUpperCase());
 	ap.setLastName(randomeString().toLowerCase());
 	//ap.setEmail("avinashdev210@gmail.com");
@@ -29,13 +41,29 @@ public class TC001_AccountRegistractionTest extends BaseClass {
 	
 	ap.setPassword(password);
 	ap.setConfirmPassword(password);
-	
-	ap.setPrivacyPolicy();
+		ap.setPrivacyPolicy();
 	ap.ClickContinue();
 
-	String confmsg = ap.getConfirmationMsg();
+	logger.info("******Validating expected message**********");
+
 	
-	Assert.assertEquals(confmsg, "your account has been created!");
+	String confmsg = ap.getConfirmationMsg();
+	if(confmsg.equals("your account has been created!")) {
+		Assert.assertTrue(true);
+	} 
+	else {
+		logger.error("test failed....");
+		logger.debug("debug logs...");
+		Assert.assertTrue(false);
+
+	}
+	
+//	Assert.assertEquals(confmsg, "your account has been created!");
+	}
+	catch(Exception e1) {
+	
+		Assert.fail();
+	}
 }
 	
 }

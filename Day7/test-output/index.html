@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\avina\AppData\Local\Temp\testng-eclipse-919382464\testng-customsuite.xml</span>
+                    <span>C:\Users\avina\AppData\Local\Temp\testng-eclipse--1349067204\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -129,20 +129,12 @@
                   <a name="varify_account_registration">
                   </a> <!-- varify_account_registration -->
                   <span class="method-name">varify_account_registration</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [your account has been created!] but found [Error communicating with the remote browser. It may have died.
-Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [09701aea4e42bff383797ad21f281725, findElement [using, value]]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.92, chrome: {chromedriverVersion: 130.0.6723.91 (53ac07678369..., userDataDir: C:\Users\avina\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56289}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56289/devtoo..., se:cdpVersion: 130.0.6723.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 09701aea4e42bff383797ad21f281725]
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at org.testng.Assert.assertEquals(Assert.java:666)
-	at testCases.TC001_AccountRegistractionTest.varify_account_registration(TC001_AccountRegistractionTest.java:38)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at testCases.TC001_AccountRegistractionTest.varify_account_registration(TC001_AccountRegistractionTest.java:57)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -178,7 +170,7 @@ Session ID: 09701aea4e42bff383797ad21f281725]
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\avina\AppData\Local\Temp\testng-eclipse-919382464\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\avina\AppData\Local\Temp\testng-eclipse--1349067204\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -231,7 +223,7 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'varify_account_registration')
 data.setCell(0, 2, 'testCases.TC001_AccountRegistractionTest')
-data.setCell(0, 3, 12678);
+data.setCell(0, 3, 12273);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
@@ -271,11 +263,11 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">varify_account_registration</span>
-                <span class="method-start">5895 ms</span>
+                <span class="method-start">3860 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">18588 ms</span>
+                <span class="method-start">16133 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
