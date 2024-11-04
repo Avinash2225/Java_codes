@@ -14,19 +14,6 @@
       </class> <!-- testCases.TC001_AccountRegistractionTest -->
     </classes>
   </test> <!-- chrometest(failed) -->
-  <test thread-count="3" parallel="tests" name="firefoxtest(failed)">
-    <parameter name="os" value="windows"/>
-    <parameter name="browser" value="firefox"/>
-    <classes>
-      <class name="testCases.TC001_AccountRegistractionTest">
-        <methods>
-          <include name="varify_account_registration"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC001_AccountRegistractionTest -->
-    </classes>
-  </test> <!-- firefoxtest(failed) -->
   <test thread-count="3" parallel="tests" name="edgetest(failed)">
     <parameter name="os" value="windows"/>
     <parameter name="browser" value="edge"/>
@@ -40,4 +27,17 @@
       </class> <!-- testCases.TC001_AccountRegistractionTest -->
     </classes>
   </test> <!-- edgetest(failed) -->
+  <test thread-count="3" parallel="tests" name="firefoxtest(failed)">
+    <parameter name="os" value="windows"/>
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testCases.TC001_AccountRegistractionTest">
+        <methods>
+          <include name="varify_account_registration"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC001_AccountRegistractionTest -->
+    </classes>
+  </test> <!-- firefoxtest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

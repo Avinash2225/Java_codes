@@ -1,69 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="0" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-04T22:11:14 IST" name="Suite" finished-at="2024-11-04T22:11:28 IST" duration-ms="13951">
+  <suite started-at="2024-11-04T23:34:12 IST" name="Suite" finished-at="2024-11-04T23:34:37 IST" duration-ms="24189">
     <groups>
     </groups>
-    <test started-at="2024-11-04T22:11:14 IST" name="firefoxtest" finished-at="2024-11-04T22:11:25 IST" duration-ms="10823">
-      <class name="testCases.TC002_LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginTest@56e8b606]" started-at="2024-11-04T22:11:14 IST" name="setup" finished-at="2024-11-04T22:11:22 IST" duration-ms="7913" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Verify_login()[pri:0, instance:testCases.TC002_LoginTest@56e8b606]" started-at="2024-11-04T22:11:22 IST" name="Verify_login" finished-at="2024-11-04T22:11:24 IST" duration-ms="1815" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_LoginTest@56e8b606]" started-at="2024-11-04T22:11:24 IST" name="tearDown" finished-at="2024-11-04T22:11:25 IST" duration-ms="1038" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC002_LoginTest -->
-    </test> <!-- firefoxtest -->
-    <test started-at="2024-11-04T22:11:14 IST" name="edgetest" finished-at="2024-11-04T22:11:26 IST" duration-ms="12306">
-      <class name="testCases.TC002_LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginTest@fcb4004]" started-at="2024-11-04T22:11:14 IST" name="setup" finished-at="2024-11-04T22:11:23 IST" duration-ms="9084" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Verify_login()[pri:0, instance:testCases.TC002_LoginTest@fcb4004]" started-at="2024-11-04T22:11:23 IST" name="Verify_login" finished-at="2024-11-04T22:11:25 IST" duration-ms="1885" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_LoginTest@fcb4004]" started-at="2024-11-04T22:11:25 IST" name="tearDown" finished-at="2024-11-04T22:11:26 IST" duration-ms="1300" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC002_LoginTest -->
-    </test> <!-- edgetest -->
-    <test started-at="2024-11-04T22:11:14 IST" name="chrometest" finished-at="2024-11-04T22:11:28 IST" duration-ms="13951">
-      <class name="testCases.TC002_LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginTest@64ba3208]" started-at="2024-11-04T22:11:14 IST" name="setup" finished-at="2024-11-04T22:11:26 IST" duration-ms="12158" status="PASS">
+    <test started-at="2024-11-04T23:34:12 IST" name="chrometest" finished-at="2024-11-04T23:34:33 IST" duration-ms="20407">
+      <class name="testCases.TC001_AccountRegistractionTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistractionTest@64ba3208]" started-at="2024-11-04T23:34:12 IST" name="setup" finished-at="2024-11-04T23:34:20 IST" duration-ms="7172" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -79,15 +23,173 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Verify_login()[pri:0, instance:testCases.TC002_LoginTest@64ba3208]" started-at="2024-11-04T22:11:26 IST" name="Verify_login" finished-at="2024-11-04T22:11:28 IST" duration-ms="1505" status="PASS">
+        <test-method signature="varify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistractionTest@64ba3208]" started-at="2024-11-04T23:34:20 IST" name="varify_account_registration" finished-at="2024-11-04T23:34:33 IST" duration-ms="12971" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at testCases.TC001_AccountRegistractionTest.varify_account_registration(TC001_AccountRegistractionTest.java:57)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Verify_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_LoginTest@64ba3208]" started-at="2024-11-04T22:11:28 IST" name="tearDown" finished-at="2024-11-04T22:11:28 IST" duration-ms="251" status="PASS">
+        </test-method> <!-- varify_account_registration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountRegistractionTest@64ba3208]" started-at="2024-11-04T23:34:33 IST" name="tearDown" finished-at="2024-11-04T23:34:33 IST" duration-ms="193" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC002_LoginTest -->
+      </class> <!-- testCases.TC001_AccountRegistractionTest -->
     </test> <!-- chrometest -->
+    <test started-at="2024-11-04T23:34:12 IST" name="edgetest" finished-at="2024-11-04T23:34:35 IST" duration-ms="22746">
+      <class name="testCases.TC001_AccountRegistractionTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistractionTest@fcb4004]" started-at="2024-11-04T23:34:12 IST" name="setup" finished-at="2024-11-04T23:34:21 IST" duration-ms="8404" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="varify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistractionTest@fcb4004]" started-at="2024-11-04T23:34:21 IST" name="varify_account_registration" finished-at="2024-11-04T23:34:34 IST" duration-ms="12968" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at testCases.TC001_AccountRegistractionTest.varify_account_registration(TC001_AccountRegistractionTest.java:57)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- varify_account_registration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountRegistractionTest@fcb4004]" started-at="2024-11-04T23:34:34 IST" name="tearDown" finished-at="2024-11-04T23:34:35 IST" duration-ms="1334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC001_AccountRegistractionTest -->
+    </test> <!-- edgetest -->
+    <test started-at="2024-11-04T23:34:12 IST" name="firefoxtest" finished-at="2024-11-04T23:34:37 IST" duration-ms="24189">
+      <class name="testCases.TC001_AccountRegistractionTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistractionTest@56e8b606]" started-at="2024-11-04T23:34:12 IST" name="setup" finished-at="2024-11-04T23:34:23 IST" duration-ms="10162" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="varify_account_registration()[pri:0, instance:testCases.TC001_AccountRegistractionTest@56e8b606]" started-at="2024-11-04T23:34:23 IST" name="varify_account_registration" finished-at="2024-11-04T23:34:36 IST" duration-ms="13103" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at testCases.TC001_AccountRegistractionTest.varify_account_registration(TC001_AccountRegistractionTest.java:57)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- varify_account_registration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountRegistractionTest@56e8b606]" started-at="2024-11-04T23:34:36 IST" name="tearDown" finished-at="2024-11-04T23:34:37 IST" duration-ms="879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC001_AccountRegistractionTest -->
+    </test> <!-- firefoxtest -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -1,9 +1,32 @@
-22:11:14.257[main] INFO  org.testng.internal.Utils - [TestNG] Running:
+23:32:13.892[main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\avina\AppData\Local\Temp\testng-eclipse--2036515546\testng-customsuite.xml
+
+23:32:13.931[main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+23:32:14.106[main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@5b07730f: 48 ms
+23:32:14.187[main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@62fe6067: 80 ms
+23:32:14.203[main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@78fb9a67: 16 ms
+23:32:14.214[main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@15c25153: 10 ms
+23:32:14.222[main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@47dbb1e2: 7 ms
+23:32:14.232[main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@773f7880: 9 ms
+23:32:14.232[main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@878452d: 0 ms
+23:34:12.811[main] INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\avina\OneDrive\Desktop\Github_for_Java\Java_codes\Day7\master.xml
 
-22:11:22.272[TestNG-tests-3] INFO  testCases.TC002_LoginTest - ***********Starting TC_002_LoginTest***************
-22:11:23.425[TestNG-tests-2] INFO  testCases.TC002_LoginTest - ***********Starting TC_002_LoginTest***************
-22:11:24.76[TestNG-tests-3] INFO  testCases.TC002_LoginTest - ***********finished TC_002_LoginTest***************
-22:11:25.307[TestNG-tests-2] INFO  testCases.TC002_LoginTest - ***********finished TC_002_LoginTest***************
-22:11:26.500[TestNG-tests-1] INFO  testCases.TC002_LoginTest - ***********Starting TC_002_LoginTest***************
-22:11:28.03[TestNG-tests-1] INFO  testCases.TC002_LoginTest - ***********finished TC_002_LoginTest***************
+23:34:20.104[TestNG-tests-1] INFO  testCases.TC001_AccountRegistractionTest - ****** Starting Test Case TC001_AccountRegistractionTest**********
+23:34:20.343[TestNG-tests-1] INFO  testCases.TC001_AccountRegistractionTest - ****** Clicked on my Account link**********
+23:34:21.253[TestNG-tests-1] INFO  testCases.TC001_AccountRegistractionTest - ****** Clicked on Registar link**********
+23:34:21.262[TestNG-tests-1] INFO  testCases.TC001_AccountRegistractionTest - ****** Providing customer details**********
+23:34:21.301[TestNG-tests-2] INFO  testCases.TC001_AccountRegistractionTest - ****** Starting Test Case TC001_AccountRegistractionTest**********
+23:34:21.518[TestNG-tests-2] INFO  testCases.TC001_AccountRegistractionTest - ****** Clicked on my Account link**********
+23:34:22.458[TestNG-tests-2] INFO  testCases.TC001_AccountRegistractionTest - ****** Clicked on Registar link**********
+23:34:22.458[TestNG-tests-2] INFO  testCases.TC001_AccountRegistractionTest - ****** Providing customer details**********
+23:34:22.947[TestNG-tests-1] INFO  testCases.TC001_AccountRegistractionTest - ******Validating expected message**********
+23:34:23.56[TestNG-tests-3] INFO  testCases.TC001_AccountRegistractionTest - ****** Starting Test Case TC001_AccountRegistractionTest**********
+23:34:23.343[TestNG-tests-3] INFO  testCases.TC001_AccountRegistractionTest - ****** Clicked on my Account link**********
+23:34:24.207[TestNG-tests-2] INFO  testCases.TC001_AccountRegistractionTest - ******Validating expected message**********
+23:34:24.794[TestNG-tests-3] INFO  testCases.TC001_AccountRegistractionTest - ****** Clicked on Registar link**********
+23:34:24.794[TestNG-tests-3] INFO  testCases.TC001_AccountRegistractionTest - ****** Providing customer details**********
+23:34:26.123[TestNG-tests-3] INFO  testCases.TC001_AccountRegistractionTest - ******Validating expected message**********
+23:34:33.38[TestNG-tests-1] ERROR testCases.TC001_AccountRegistractionTest - test failed....
+23:34:34.266[TestNG-tests-2] ERROR testCases.TC001_AccountRegistractionTest - test failed....
+23:34:36.158[TestNG-tests-3] ERROR testCases.TC001_AccountRegistractionTest - test failed....
