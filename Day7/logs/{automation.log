@@ -1,1 +1,9 @@
-23:43:12.405[main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@35835e65: 0 ms
+22:11:14.257[main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\avina\OneDrive\Desktop\Github_for_Java\Java_codes\Day7\master.xml
+
+22:11:22.272[TestNG-tests-3] INFO  testCases.TC002_LoginTest - ***********Starting TC_002_LoginTest***************
+22:11:23.425[TestNG-tests-2] INFO  testCases.TC002_LoginTest - ***********Starting TC_002_LoginTest***************
+22:11:24.76[TestNG-tests-3] INFO  testCases.TC002_LoginTest - ***********finished TC_002_LoginTest***************
+22:11:25.307[TestNG-tests-2] INFO  testCases.TC002_LoginTest - ***********finished TC_002_LoginTest***************
+22:11:26.500[TestNG-tests-1] INFO  testCases.TC002_LoginTest - ***********Starting TC_002_LoginTest***************
+22:11:28.03[TestNG-tests-1] INFO  testCases.TC002_LoginTest - ***********finished TC_002_LoginTest***************
