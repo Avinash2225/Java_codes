@@ -14,6 +14,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 public class BaseClass {
@@ -22,8 +23,8 @@ public class BaseClass {
 	public Logger logger;
 	public Properties p;
 	 @BeforeClass
-	 @Parameters({"os", "browser"})
-	 public	void setup(String os , String br) throws IOException {
+	 @Parameters ({"os", "browser"})
+	 public	void setup(@Optional("Windows") String os , @Optional("chrome")String br) throws IOException {
 		 // loading Properties File
 		 
 		 FileReader file = new FileReader("C:\\Users\\avina\\OneDrive\\Desktop\\Github_for_Java\\Java_codes\\Day7\\src\\test\\resources\\config.properties");

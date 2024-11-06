@@ -13,15 +13,15 @@ public class DataProvider1 {
 		
 		ExcelUtility xlutil = new ExcelUtility(path); // creating an object for xl utility
 		
-		int totalrows = xlutil.getRowCount("sheet1");
-		int totalcols = xlutil.getCellCount("sheet1", 1);
+		int totalrows = xlutil.getRowCount("Sheet1");
+		int totalcols = xlutil.getCellCount("Sheet1", 1);
 		
 		String logindata [] [] = new String [totalrows] [totalcols]; // created for two dimension array which can store 
 		for(int i=0; i<=totalrows; i++) // 1 // read data from xl storing in two dimensional array
 		{
 			for (int j=0; j<totalcols; j++)  // 0 i is rows j is column
 			{
-				logindata[i-1] [j] = xlutil.getCellData("sheet1", i, j);  // 1,0
+				logindata[i-1] [j] = xlutil.getCellData("Sheet1", i, j);  // 1,0
 			}
 		}
 		return logindata; // returning  two dimensional array
