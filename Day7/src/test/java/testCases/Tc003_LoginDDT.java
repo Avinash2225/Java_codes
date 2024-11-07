@@ -11,7 +11,7 @@ import utilities.DataProvider1;
 
 public class Tc003_LoginDDT  extends BaseClass{
 	
-	@Test(dataProvider= "LoginData" , dataProviderClass=DataProvider1.class)  // getting data  provider from different class 
+	@Test(dataProvider= "LoginData" , dataProviderClass=DataProvider1.class , groups= "datadriven")  // getting data  provider from different class 
 	public void verify_loginDDT(String email, String pwd, String exp)  // why we are using data providers because earlier we are using dta providers in same class but now we are using from
 	{                             // different class that is why we are using this concept
 		logger.info("*****************  Starting TC_003_Login ****************");

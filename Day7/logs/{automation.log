@@ -8,3 +8,53 @@
 22:11:18.494[main] INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\avina\OneDrive\Desktop\Github_for_Java\Java_codes\Day7\master.xml
 
+23:35:16.07[main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\avina\OneDrive\Desktop\Github_for_Java\Java_codes\Day7\master.xml
+
+00:01:23.378[main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\avina\OneDrive\Desktop\Github_for_Java\Java_codes\Day7\master.xml
+
+00:02:30.273[main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\avina\OneDrive\Desktop\Github_for_Java\Java_codes\Day7\master.xml
+
+00:03:56.24[main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\avina\OneDrive\Desktop\Github_for_Java\Java_codes\Day7\master.xml
+
+00:05:51.364[main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\avina\OneDrive\Desktop\Github_for_Java\Java_codes\Day7\master.xml
+
+00:08:00.474[main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\avina\OneDrive\Desktop\Github_for_Java\Java_codes\Day7\master.xml
+
+00:10:02.848[main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\avina\OneDrive\Desktop\Github_for_Java\Java_codes\Day7\master.xml
+
+00:10:14.909[TestNG-tests-1] INFO  testCases.Tc003_LoginDDT - *****************  Starting TC_003_Login ****************
+00:10:17.40[TestNG-tests-1] INFO  testCases.Tc003_LoginDDT - **************** finished TC_003_Login ****************
+00:10:17.46[TestNG-tests-1] INFO  testCases.Tc003_LoginDDT - *****************  Starting TC_003_Login ****************
+00:10:19.132[TestNG-tests-1] INFO  testCases.Tc003_LoginDDT - *****************  Starting TC_003_Login ****************
+00:10:29.216[TestNG-tests-1] INFO  testCases.Tc003_LoginDDT - *****************  Starting TC_003_Login ****************
+00:10:39.292[TestNG-tests-1] INFO  testCases.Tc003_LoginDDT - *****************  Starting TC_003_Login ****************
+00:11:15.514[main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\avina\OneDrive\Desktop\Github_for_Java\Java_codes\Day7\master.xml
+
+00:11:33.333[TestNG-tests-1] INFO  testCases.Tc003_LoginDDT - *****************  Starting TC_003_Login ****************
+00:11:35.471[TestNG-tests-1] INFO  testCases.Tc003_LoginDDT - **************** finished TC_003_Login ****************
+00:11:35.479[TestNG-tests-1] INFO  testCases.Tc003_LoginDDT - *****************  Starting TC_003_Login ****************
+00:11:38.99[TestNG-tests-1] INFO  testCases.Tc003_LoginDDT - *****************  Starting TC_003_Login ****************
+00:11:48.232[TestNG-tests-1] INFO  testCases.Tc003_LoginDDT - *****************  Starting TC_003_Login ****************
+00:11:58.388[TestNG-tests-1] INFO  testCases.Tc003_LoginDDT - *****************  Starting TC_003_Login ****************
+00:39:03.561[main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\avina\OneDrive\Desktop\Github_for_Java\Java_codes\Day7\test-output\grouping.xml
+
+00:39:32.373[TestNG-tests-1] INFO  testCases.TC001_AccountRegistractionTest - ****** Starting Test Case TC001_AccountRegistractionTest**********
+00:39:32.463[TestNG-tests-1] INFO  testCases.TC001_AccountRegistractionTest - ****** Clicked on my Account link**********
+00:39:35.550[TestNG-tests-1] INFO  testCases.TC001_AccountRegistractionTest - ****** Clicked on Registar link**********
+00:39:35.554[TestNG-tests-1] INFO  testCases.TC001_AccountRegistractionTest - ****** Providing customer details**********
+00:39:37.45[TestNG-tests-1] INFO  testCases.TC001_AccountRegistractionTest - ******Validating expected message**********
+00:39:47.98[TestNG-tests-1] ERROR testCases.TC001_AccountRegistractionTest - test failed....
+00:44:20.238[main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\avina\OneDrive\Desktop\Github_for_Java\Java_codes\Day7\test-output\grouping.xml
+
+00:44:28.311[TestNG-tests-1] INFO  testCases.TC002_LoginTest - ***********Starting TC_002_LoginTest***************
+00:44:29.883[TestNG-tests-1] INFO  testCases.TC002_LoginTest - ***********finished TC_002_LoginTest***************

@@ -9,7 +9,8 @@ import testBase.BaseClass;
 public class TC001_AccountRegistractionTest extends BaseClass {
 
 	
-@Test public	void varify_account_registration() {
+@Test (groups= { "Regression", "Master"})
+public	void varify_account_registration() {
 	try {
 	logger.info("****** Starting Test Case TC001_AccountRegistractionTest**********");
 	HomePage hp = new HomePage(driver);

@@ -22,9 +22,10 @@ public class BaseClass {
 	
 	public Logger logger;
 	public Properties p;
-	 @BeforeClass
+	 @BeforeClass(groups= {"Sanity", "Regression", "Master" })
+	 
 	 @Parameters ({"os", "browser"})
-	 public	void setup(@Optional("Windows") String os , @Optional("chrome")String br) throws IOException {
+	 public	void setup( String os ,String br) throws IOException {
 		 // loading Properties File
 		 
 		 FileReader file = new FileReader("C:\\Users\\avina\\OneDrive\\Desktop\\Github_for_Java\\Java_codes\\Day7\\src\\test\\resources\\config.properties");
