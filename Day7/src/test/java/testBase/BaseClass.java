@@ -1,14 +1,21 @@
 package testBase;
 
+import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.time.Duration;
+import java.util.Date;
 import java.util.Properties;
 
+import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -18,7 +25,7 @@ import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 public class BaseClass {
-	public WebDriver driver;
+	public static WebDriver driver;
 	
 	public Logger logger;
 	public Properties p;
@@ -87,8 +94,59 @@ public class BaseClass {
 	String  generatenumber =	RandomStringUtils.randomNumeric(3);
 	
 	return (generatestring+"@"+generatenumber);  // here returing both alpha+numeric and also adding @ for special character this is most important for first time when we are automation registartion page
-	
 	}
 	
+	// Takes screen shot mathod and 
+	/*public String captureScreen (String tname) throws WebDriverException  {
+		String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
+		
+		TakesScreenshot takeScreenshot = (TakesScreenshot) driver;
+		File sourceFile = null;
+		try {
+			File sourceFile1 = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+		} catch (WebDriverException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		String targetFilePath = System.getProperty("user.dir")+"\\screenshots\\" + tname + "_ " +timeStamp + "_" + ".png";
+				File targetFile = new File(targetFilePath);
+		
+		sourceFile.renameTo(targetFile);
+		return targetFilePath;  */
+	
+	public String captureScreen(String tname) {
+	    String timeStamp = new SimpleDateFormat("yyyyMMddHHmmss").format(new Date());
+	    String targetFilePath = System.getProperty("user.dir") + "\\screenshots\\" + tname + "_" + timeStamp + ".png";
 
+	    // Ensure the screenshots directory exists
+	    File screenshotsDir = new File(System.getProperty("user.dir") + "\\screenshots");
+	    if (!screenshotsDir.exists()) {
+	        screenshotsDir.mkdirs();
+	    }
+
+	    try {
+	        // Capture the screenshot and assign to sourceFile
+	        TakesScreenshot takeScreenshot = (TakesScreenshot) driver;
+	        File sourceFile = takeScreenshot.getScreenshotAs(OutputType.FILE);
+	        
+	        // Define the target file
+	        File targetFile = new File(targetFilePath);
+	        
+	        // Copy sourceFile to targetFile
+	        FileUtils.copyFile(sourceFile, targetFile);
+	        System.out.println("Screenshot saved at: " + targetFilePath);
+	        
+	        return targetFilePath;
+
+	    } catch (WebDriverException e) {
+	        System.err.println("Failed to capture screenshot due to WebDriverException: " + e.getMessage());
+	        return null;
+	    } catch (IOException e) {
+	        System.err.println("Failed to save screenshot due to IOException: " + e.getMessage());
+	        return null;
+	
+	    }
+	}
 }
+	
