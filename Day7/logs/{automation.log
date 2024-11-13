@@ -31,3 +31,9 @@
 00:49:08.307[TestNG-tests-1] INFO  testCases.TC001_AccountRegistractionTest - ****** Providing customer details**********
 00:49:10.263[TestNG-tests-1] INFO  testCases.TC001_AccountRegistractionTest - ******Validating expected message**********
 00:49:20.339[TestNG-tests-1] ERROR testCases.TC001_AccountRegistractionTest - test failed....
+21:58:29.209[TestNG-tests-1] INFO  testCases.TC001_AccountRegistractionTest - ****** Starting Test Case TC001_AccountRegistractionTest**********
+21:58:29.324[TestNG-tests-1] INFO  testCases.TC001_AccountRegistractionTest - ****** Clicked on my Account link**********
+21:58:29.882[TestNG-tests-1] INFO  testCases.TC001_AccountRegistractionTest - ****** Clicked on Registar link**********
+21:58:29.884[TestNG-tests-1] INFO  testCases.TC001_AccountRegistractionTest - ****** Providing customer details**********
+21:58:31.247[TestNG-tests-1] INFO  testCases.TC001_AccountRegistractionTest - ******Validating expected message**********
+21:58:41.333[TestNG-tests-1] ERROR testCases.TC001_AccountRegistractionTest - test failed....
