@@ -1,1 +1,10 @@
 14:18:56.200[TestNG-tests-1] ERROR testCases.TC001_AccountRegistractionTest - test failed....
+11:56:08.466[main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\avina\OneDrive\Desktop\Github_for_Java\Java_codes\Day7\master.xml
+
+11:56:18.741[TestNG-tests-1] INFO  testCases.TC001_AccountRegistractionTest - ****** Starting Test Case TC001_AccountRegistractionTest**********
+11:56:18.878[TestNG-tests-1] INFO  testCases.TC001_AccountRegistractionTest - ****** Clicked on my Account link**********
+11:56:20.148[TestNG-tests-1] INFO  testCases.TC001_AccountRegistractionTest - ****** Clicked on Registar link**********
+11:56:20.153[TestNG-tests-1] INFO  testCases.TC001_AccountRegistractionTest - ****** Providing customer details**********
+11:56:21.999[TestNG-tests-1] INFO  testCases.TC001_AccountRegistractionTest - ******Validating expected message**********
+11:56:35.593[TestNG-tests-1] ERROR testCases.TC001_AccountRegistractionTest - test failed....
